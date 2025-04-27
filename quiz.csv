@@ -1,0 +1,134 @@
+Question;A;B;C;D;Correct Answer;Lecture
+What is VS Code primarily used for?;A text editor;A compiler;A command line;An IDE;A;0. Functions Variables
+What is the command to run the hello.py program in the terminal?;run hello.py;python hello.py;execute hello.py;python run hello.py;B;0. Functions Variables
+What does the print function do?;Prints output to the terminal;Executes code directly;Displays the code;Creates a new line;A;0. Functions Variables
+What is a bug in programming?;A type of data;An error in code;A programming tool;A good practice;D;0. Functions Variables
+What is a variable in Python?;A container for a value;A function type;A constant value;A collection of functions;A;0. Functions Variables
+What does the equal sign (=) do in a variable assignment?;It assigns a value;It compares values;It concatenates strings;It deletes a variable;B;0. Functions Variables
+How can you remove whitespace from a string in Python?;Using the strip method;Using the trim method;Using the clean method;Using the remove method;A;0. Functions Variables
+What is the purpose of comments in code?;To keep track of code;To generate documentation;To improve performance;To comment out code;A;0. Functions Variables
+What is the correct way to format a string with a variable in Python?;Using f-strings;Using printf;Using format();Using to_string();A;0. Functions Variables
+What does the input function do in Python?;Gets user input;Prints a message;Stores data;Prints to the console;A;0. Functions Variables
+What is the purpose of conditionals in programming?;To repeat a block of code multiple times;To store user input;To allow a program to make decisions based on conditions;To create variables;C;1. Conditionals
+What does '==' mean in Python?;Assignment of a value;Equality comparison;Greater than;Less than;B;1. Conditionals
+Which symbol is used for 'not equal to' in Python?;!=;==;<>;/=;A;1. Conditionals
+What will be printed if x = 5 and y = 10 and the condition is 'if x < y:'?;x is greater than y;x is equal to y;x is less than y;Error;C;1. Conditionals
+What is the output if x = 5 and y = 5 and the condition is 'if x == y:'?;x is less than y;x is greater than y;x is equal to y;Error;C;1. Conditionals
+How does the 'elif' keyword function?;It repeats a loop;It allows for an alternative condition if the previous ones are false;It ends a program;It stores data;B;1. Conditionals
+Which operator is used to check if two conditions are both true?;or;and;not;!=;B;1. Conditionals
+In the condition 'if 90 <= score <= 100:',  which score range will be true?;Scores less than 90+H19C19:I19C19:H19;Scores between 0 and 90;Scores greater than 100;Scores between 90 and 100;D;1. Conditionals
+What does the '%' operator do?;Adds two numbers;Multiplies two numbers;Finds the remainder of a division;Divides two numbers;C;1. Conditionals
+Which statement best describes the 'else' clause?;It executes if the 'if' condition is true;It executes only if 'elif' is true;It executes if all previous conditions are false;It checks multiple conditions at once;C;1. Conditionals
+What will be the output of 'if x != y' when x = 3 and y = 4?;True;False;Error;No output;A;1. Conditionals
+What is a 'Pythonic' way to return True if a number is even?;return n == 0;return n % 2 == 0;return n % 2 != 0;return n = 0;B;1. Conditionals
+Which keyword allows multiple possible matches for a value?;if;elif;match;else;C;1. Conditionals
+What does the 'or' operator do?;Checks if both conditions are false;Checks if at least one of the conditions is true;Inverts the boolean value;Checks if both conditions are true;B;1. Conditionals
+Why is '==' preferred over '=' in comparisons?;'==' is faster than '=';'=' is only used in loops;'=' assigns a value, while '==' checks equality;They are the same;C;1. Conditionals
+What is the main purpose of loops in programming?;To execute code only once;To repeat a block of code multiple times;To print output to the console;To debug programs;B;2. Loops
+Which keyword is used to exit a loop in Python?;exit;continue;break;stop;C;2. Loops
+What will the following code do?\n i = 3\n while i != 0:\n    print('meow');Print 'meow' three times and stop;Run forever  printing 'meow';Print 'meow' once and stop+H4;Print 'meow' twice;B;2. Loops
+How can you modify a while loop to stop it from running forever?;Change the loop condition to always be True;Use 'continue' in the loop body;Decrease the loop variable each time;Print the loop variable;C;2. Loops
+What does 'i += 1' do in a loop?;Subtracts 1 from i;Increments i by 1;Multiplies i by 1;Divides i by 1;B;2. Loops
+Which of the following is a correct syntax for a for loop in Python?;"for i = 0; i < 3; i++:";for i in [0, 1 , 2]:;loop i from 0 to 3:;repeat i 3 times:;B;2. Loops
+What will the following code output?\nfor _ in range(3):\n    print('meow');Prints 'meow' once;Prints 'meow' three times;Prints 'meowmeowmeow';Prints nothing;B;2. Loops
+Why might you use an underscore (_) in a for loop?;To indicate a loop should run infinitely;To ignore the loop variable;To declare a function;To print the loop variable;B;2. Loops
+How do you print a string multiple times in Python?;print('meow' times 3);print('meow' * 3);print(3 + 'meow');print('meow', 3);B;2. Loops
+Which statement correctly starts a while loop?;while x = 10:;while x == 10:;while x => 10:;while x <== 10:;B;2. Loops
+What does 'continue' do inside a loop?;Stops the loop;Skips the rest of the code inside the loop and starts the next iteration;Ends the program;Prints the loop variable;B;2. Loops
+What does the 'break' keyword do inside a loop?;Skips to the next iteration;Exits the loop immediately;Pauses the loop;Restarts the loop;B;2. Loops
+What will 'len()' function return when applied to a list?;The number of elements in the list;The last element of the list;The type of the list;The sum of elements in the list;A;2. Loops
+In the code 'for student in students:'  what is 'student'?;A list;A function;A variable representing each element in the list;A string;C;2. Loops
+Which of the following is a better approach for iterating through a large number of times?;for i in [0, 1, 2]:;while True:;for i in range(1000000):;for _ in [0, 1, 2, �,  1000000]:;C;2. Loops
+What is an exception in programming?;A syntax error;Something that goes wrong in coding;A correct input;A variable declaration;B;3. Exceptions
+What type of error is caused by unexpected behavior in code?;Syntax error;Logical error;Runtime error;Compilation error;C;3. Exceptions
+"What happens when you run print(""hello, world)?";No output;Syntax error;Runtime error;Successful execution;B;3. Exceptions
+What does ValueError indicate?;A variable is undefined;Incorrect data type;A syntax issue;An input/output error;B;3. Exceptions
+What does the try block do in Python?;Catches all errors;Tests user input before an error occurs;Declares variables;Returns a value;B;3. Exceptions
+In the modified code, what happens if x is not an integer?;Program ends;NameError occurs;Error message is printed;It asks for input again;D;3. Exceptions
+What does the else block do in a try statement?;Runs if an error occurs;Runs if no error occurs;Always runs;Declares a variable;B;3. Exceptions
+What is the purpose of using while True: in the code?;To create an infinite loop;To declare a function;To prevent syntax errors;To ensure correct input;A;3. Exceptions
+How can you ensure that a user input is repeatedly requested until it's correct?;Use a for loop;Use a while loop;Use a try block;Use a function;B;3. Exceptions
+What is the purpose of the pass statement in the code?;To terminate the program;To skip an iteration;To provide an error message;To continue the loop;B;3. Exceptions
+How can the get_int function be improved according to the lecture?;By making it shorter;By adding more prompts;By removing error handling;By passing prompts as arguments;D;3. Exceptions
+What does the statement return x do in the function?;Exits the function;Passes the value of x back to the caller;Declares x as a global variable;Prints the value of x;B;3. Exceptions
+What type of error will you get if you try to print a variable that has not been defined?;Syntax error;NameError;ValueError;Runtime error;B;3. Exceptions
+What should you do if your program encounters an error due to user input?;End the program;Print an error message;Ignore the input;Prompt for input again;D;3. Exceptions
+What is the purpose of libraries in Python?;To increase program size;To slow down execution;To share and reuse code;To restrict access to functions;C;4. Libraries
+Which keyword is used to load a module in Python?;include;load;import;require;C;4. Libraries
+"What is the output of the following code: random.choice([""heads"",  ""tails""])?";Always heads;Always tails;Randomly heads or tails;Error;C;4. Libraries
+Which of the following correctly imports only the choice function from random?;import random.import;from random import all;import choice;from random import choice;D;4. Libraries
+What does the random.randint(a,  b) function do?;Generates a number between a and b;Generates a random string;Creates a list of numbers;Sorts a list;A;4. Libraries
+What is the effect of random.shuffle(x) on a list?;Sorts it alphabetically;Shuffles the list in place;Deletes the list;Duplicates the list;B;4. Libraries
+Which Python module is used for calculating the average of a list of values?;random;statistics;math;sys;B;4. Libraries
+What is the function of sys.argv in Python?;Stores command-line arguments;Generates random numbers;Calculates statistics;Imports modules;A;4. Libraries
+What error occurs if sys.argv is accessed with too few arguments?;IndexError;KeyError;TypeError;ValueError;A;4. Libraries
+How can you protect a program from too few command-line arguments in Python?;Use a try-except block;Use an infinite loop;Use random.shuffle();None of the above;A;4. Libraries
+What is the purpose of the sys.exit() function?;Exits the loop;Restarts the program;Terminates the program if an error occurs;Calculates the mean;C;4. Libraries
+What does slice allow you to do with a list?;Concatenate two lists;Remove elements from a list;Select a specific part of a list;Sort the list;C;4. Libraries
+Which of the following is a third-party package manager for Python?;pip;random;cowsay;sys;A;4. Libraries
+What is cowsay used for in Python?;Generating random numbers;Generating statistical data;Making animals talk in text;Making HTTP requests;C;4. Libraries
+What format is commonly used to exchange data between applications in APIs?;XML;JSON;CSV;HTML;B;4. Libraries
+What is the main purpose of unit testing?;To improve code readability;To test code functionality;To write documentation;To increase code complexity;B;5. Unit tests
+Which command is used to run the unit tests with pytest?;python test_calculator.py;pytest test_calculator.py;test_calculator.py;run test_calculator.py;B;5. Unit tests
+What does the assert command do in Python?;Executes a function;Checks if a condition is true;Prints a message;Imports a module;B;5. Unit tests
+In the test_calculator.py, which function is used to test the square function?;test_square;square_test;test_function;assert_square;A;5. Unit tests
+What error is raised if an assertion fails in pytest?;ValueError;TypeError;AssertionError;IndexError;C;5. Unit tests
+What will happen if you run pytest and there is a failure in one of the tests?;All tests will stop running;Only that test will stop;All tests will run;No tests will run;A;5. Unit tests
+How do you expect to handle errors when testing with pytest?;By using print statements;By ignoring them;By using pytest.raises;By returning error messages;C;5. Unit tests
+What should you do to test the hello function in hello.py?;Change it to return a value;Leave it as is;Use a different function;Test it manually;A;5. Unit tests
+Why is it beneficial to separate tests into different functions?;It reduces code complexity;It allows all tests to run;It makes it easier to read;It avoids the need for imports;B;5. Unit tests
+What is the purpose of the __init__.py file in the test folder?;To import modules;To define a package;To create test cases;To run tests;B;5. Unit tests
+What is the output of running pytest if all tests pass?;"""Tests failed""";"""No errors found""";"""Tests passed""";"""Assertion successful""";B;5. Unit tests
+Which of the following is a third-party library for unit testing in Python?;unittest;pytest;assert;testlib;B;5. Unit tests
+What does the main function in test_calculator.py call?;test_function;main;test_square;square;C;5. Unit tests
+How can you test multiple scenarios without writing repetitive code?;By using loops;By using assert statements;By importing functions;By combining tests;B;5. Unit tests
+What is one of the challenges mentioned about testing multiple cases?;It makes the code bloated;It reduces code quality;It complicates testing;It limits testing capabilities;A;5. Unit tests
+What does File I/O allow a program to do?;Store information in memory;Read and write files;Only read files;Only write files;B;6. File I/O
+Which Python function is used to open a file?;open;read;write;close;A;6. File I/O
+In the example code, how many times will the user be prompted for input?;Once;Twice;Three times;Five times;C;6. File I/O
+What method is used to add a name to a list?;insert;append;add;extend;B;6. File I/O
+How do you append to a file without overwriting it?;"Use ""w"" mode";"Use ""a"" mode";"Use ""r"" mode";"Use ""rw"" mode";B;6. File I/O
+Which line of code will write a name followed by a new line to a file?;file.write(name);"file.write(f""{name}"")";"file.write(f""{name}\n"")";file.append(name);C;6. File I/O
+What is the purpose of the with statement when dealing with files?;Automatically closes the file;Opens the file;Creates a backup of the file;Deletes the file;A;6. File I/O
+What does readlines() do?;Reads a single line;Reads all lines in a file;Appends a line;Deletes the file;B;6. File I/O
+What is CSV short for?;Comma Separated Values;Comma Separated Variables;Comma Separated Values;Column Separated Values;A;6. File I/O
+What is the purpose of the DictReader in the CSV module?;To read files in binary format;To read CSV files as dictionaries;To write CSV files;To create CSV files;B;6. File I/O
+Which command is used to write to a CSV file using a dictionary?;writer.write(row);"writer.writerow({""name"": name, ""home"": home})";writer.dict(row);writer.append(row);B;6. File I/O
+How do you ensure that the file is closed properly after writing?;Use close();Use open();Use with statement;Use readlines();C;6. File I/O
+In the context of the CSV module, what does the csv.reader function return?;A single value;A dictionary;A list of rows;A text file;C;6. File I/O
+Which library is used for handling images in Python?;PIL;CSV;JSON;XML;A;6. File I/O
+What method is used to remove leading and trailing whitespace from a string in Python?;strip();remove();trim();delete();A;7. Regular Expressions
+What is the purpose of the endswith() method in email validation?;Check if the string ends with a specific substring;Check if the string contains an @ symbol;Check if the string contains numbers;Check if the string is lowercase;A;7. Regular Expressions
+Which library in Python provides functions to validate patterns using regular expressions?;os;re;math;sys;B;7. Regular Expressions
+What does the symbol '.' represent in regular expressions?;Any character except a newline;The end of a string;Zero or more repetitions;Whitespace;A;7. Regular Expressions
+"In the regular expression "".+@.+"",  what does the '+' symbol signify?";Zero or more repetitions;One or more repetitions;Optional repetition;A single repetition;B;7. Regular Expressions
+Which special character is used in regular expressions to match the start of a string?;$;^;*;.;B;7. Regular Expressions
+"In the expression r"".+@.+\.edu$""  what is the purpose of the backslash before the period?";Escape the period to match a literal dot;Indicate a new line;Match any character;Indicate case sensitivity;A;7. Regular Expressions
+What does \w represent in regular expressions?;Any digit;Any whitespace character;Any word character (letters,  digits and underscore);Any non-digit character+L59;C;7. Regular Expressions
+Which method in Python can be used to extract groups from a regular expression match?;match();group();split();find();B;7. Regular Expressions
+How can we make regular expressions case insensitive in Python?;Using the re.MULTILINE flag;Using the re.DOTALL flag;Using the re.IGNORECASE flag;Using the re.GLOBAL flag;C;7. Regular Expressions
+What is the main focus of Object-Oriented Programming (OOP)?;Step-by-step execution;Encapsulation and abstraction;Linear programming;Procedural coding;B;8. Object-Oriented Programming
+What is the purpose of the get_student() function?;To print student information;To return a tuple of name and house;To modify the student's house;To initialize the Student class;B;8. Object-Oriented Programming
+Which of the following is true about tuples?;They are mutable;They can be modified after creation;They cannot be modified;They are slower than lists;C;8. Object-Oriented Programming
+What type of data structure can hold key-value pairs in Python?;List;Tuple;Dictionary;Set;C;8. Object-Oriented Programming
+What does the __init__ method in a class define?;A way to access class attributes;The constructor for the class;A method to print object details;A way to modify existing objects;B;8. Object-Oriented Programming
+In the context of the Student class, what does self refer to?;The class itself;The current instance of the class;The name of the student;The house of the student;B;8. Object-Oriented Programming
+What will happen if a user does not provide a name when creating a Student object?;The program will print an error;The name will be set to 'Unknown';The object will be created without a name;The program will exit;A;8. Object-Oriented Programming
+How do you access an attribute of an object in Python?;Using the * operator;Using dot notation;Using square brackets;Using parentheses;B;8. Object-Oriented Programming
+Which of the following correctly initializes a Student object?;"student = Student(""Padma"", ""Gryffindor"")";"student = new Student(""Padma"", ""Gryffindor"")";"student = Student(""Padma"")";student = Student();A;8. Object-Oriented Programming
+What does the raise keyword do in Python?;It creates a new variable;It handles exceptions;It generates an exception;It imports a module;C;8. Object-Oriented Programming
+Which of the following methods is used to print the attributes of an object in a readable format?;__init__;__str__;__repr__;__display__;B;8. Object-Oriented Programming
+What error will occur if a student�s house is not one of the defined houses?;IndexError;ValueError;TypeError;KeyError;B;8. Object-Oriented Programming
+How can you ensure that a student's house is valid when creating a Student object?;Use a conditional check;Ignore invalid inputs;Always assign a default house;Allow any input;A;8. Object-Oriented Programming
+What data structure is used in the revised code to store student information?;List;Tuple;Dictionary;Class;C;8. Object-Oriented Programming
+In the final example, how many methods are present in the Student class?;One;Two;Three;Four;B;8. Object-Oriented Programming
+What is the purpose of the @property decorator in Python?;It defines a class method;It defines a static method;It defines a property of a class;It initializes a class attribute;C;8. Object-Oriented Programming
+Which function is used to validate the house property in the Student class?;__init__;house.getter;house.setter;@classmethod;C;8. Object-Oriented Programming
+What exception is raised if the house value is not valid in the Student class?;TypeError;ValueError;AttributeError;KeyError;B;8. Object-Oriented Programming
+In the Student class,  which attribute is protected by the underscore prefix?;house;name;_house;_name;C;8. Object-Oriented Programming
+What does the @classmethod decorator allow in a Python class?;It defines a method that operates on class instances;It defines a method that operates on the class itself;It defines a private method;It initializes the class object;B;8. Object-Oriented Programming
+Which method allows adding two Vault objects together in Python?;__str__;__init__;__add__;__eq__;C;8. Object-Oriented Programming
+What Python built-in class represents integers?;str;int;list;dict;B;8. Object-Oriented Programming
+In inheritance,  what keyword is used to refer to the parent class?;self;super;cls;parent;B;8. Object-Oriented Programming
+Which decorator in Python is used to define methods that are not related to class or instance variables?;@classmethod;@property;@staticmethod;@instance;C;8. Object-Oriented Programming
+What Python class method can be used to create a Student object without instantiating the class first?;get_student();get();house();sort();B;8. Object-Oriented Programming 
