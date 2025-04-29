@@ -1,4 +1,4 @@
-Question;A;B;C;D;Correct Answer;Lecture
+Question;A;B;C;D;answer;Lecture
 What is VS Code primarily used for?;A text editor;A compiler;A command line;An IDE;A;0. Functions Variables
 What is the command to run the hello.py program in the terminal?;run hello.py;python hello.py;execute hello.py;python run hello.py;B;0. Functions Variables
 What does the print function do?;Prints output to the terminal;Executes code directly;Displays the code;Creates a new line;A;0. Functions Variables
